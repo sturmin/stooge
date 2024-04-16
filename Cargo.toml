@@ -1,0 +1,15 @@
+[package]
+name = "stooge"
+version = "0.0.1"
+edition = "2021"
+description = "//TODO"
+repository = "https://github.com/sturmin/stooge"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+teloxide = { version = "0.12", features = ["macros", "trace-adaptor", "throttle"] }
+log = "0.4"
+pretty_env_logger = "0.5.0"
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
