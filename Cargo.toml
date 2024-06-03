@@ -12,4 +12,4 @@ license = "MIT OR Apache-2.0"
 teloxide = { version = "0.12", features = ["macros", "trace-adaptor", "throttle"] }
 log = "0.4"
 pretty_env_logger = "0.5.0"
-tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+tokio = { version =  "1.38", features = ["rt-multi-thread", "macros"] }
